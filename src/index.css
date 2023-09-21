@@ -1,0 +1,35 @@
+.contedorBannerNav{
+  display: flex;
+  justify-content: center;
+}
+
+.contBanner{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+.contBanner img {
+  object-fit: cover;
+  height: 80vh;
+}
+.contenedorNavBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px;
+  border: 1px white solid;
+  border-radius: 12px;
+  padding: 0px 24px;
+  box-shadow: 3px 9px 5px 3px rgba(0,0,0,0.1);
+  background-color: white;
+}
+.iconMenu img{
+  width: 24px;
+
+}
+.contenedorNavBar :nth-child(3){
+  width: 40px;
+}
+.logoPrincipal img{
+  width: 240px;
+}
